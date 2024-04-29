@@ -1,0 +1,18 @@
+{
+  "name": "open-dollar-data",
+  "version": "1.0.0",
+  "description": "fetch and write data",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/bignumber": "^5.7.0",
+    "@opendollar/sdk": "^1.7.0-rc.3",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.4.5"
+  }
+}
