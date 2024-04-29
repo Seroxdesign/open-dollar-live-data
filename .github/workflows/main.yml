@@ -23,7 +23,8 @@ jobs:
 
     - name: Set Environment Variables
       run: |
-        echo "OPEN_DOLLAR_ENV=${{ secrets.OPEN_DOLLAR_ENV }}" >> $GITHUB_ENV
+        echo "ARBITRUM_ITEM_ID=${{ secrets.ARBITRUM_ITEM_ID }}" >> $GITHUB_ENV
+        echo "LIVE_DATA_COLLECTION_ID=${{ secrets.LIVE_DATA_COLLECTION_ID }}" >> $GITHUB_ENV
         echo "WEBFLOW_API_KEY=${{ secrets.WEBFLOW_API_KEY }}" >> $GITHUB_ENV
 
     - name: Run Node.js Application
